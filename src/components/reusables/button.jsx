@@ -1,10 +1,13 @@
-export default function Button() {
+import Link from "next/link";
+
+export default function Button({ link, text, className = "" }) {
   return (
-    <button
+    <Link
       type="button"
-      className="inline-flex items-center gap-x-2  bg-indigo-600 px-8 py-4 text-base font-semibold text-white shadow-sm hover:bg-indigo-500 shrinkAnimation"
+      href={link}
+      className={`inline-flex justify-center items-center gap-x-2 px-8 py-4 text-base shrinkAnimation ${className}`}
     >
-      Get a quote
-    </button>
+      {text}
+    </Link>
   );
 }

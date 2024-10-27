@@ -17,6 +17,9 @@ body {
   --foreground: #171717;
   --font-inter: "Inter", sans-serif;
 }
+.mediumBold{
+  font-weight: 500;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

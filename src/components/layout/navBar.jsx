@@ -34,7 +34,11 @@ export default function NavBar() {
           <DesktopNavLinks />
 
           <div className="hidden md:ml-6 md:flex md:items-center ">
-            <Button />
+            <Button
+              text="Get a quote"
+              link="/contact"
+              className="bg-indigo-500 mediumBold"
+            />
           </div>
           <div className="-mr-2 flex items-center md:hidden  ">
             {/* Mobile menu button */}
