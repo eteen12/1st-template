@@ -27,7 +27,7 @@ const cardsData = [
 
 export default function ThreeCardGrid() {
   return (
-    <div className="grid grid-cols-1 max-w-7xl h-[400px] md:h-[250px] lg:h-[220px] mx-auto px-8 sm:px-6 md:grid-cols-3 ">
+    <div className="grid grid-cols-1 max-w-7xl h-[400px] md:h-[250px] lg:h-[220px] mx-auto px-8 sm:px-6 md:grid-cols-3  ">
       {cardsData.map((card, index) => {
         const IconComponent = card.icon;
 
@@ -44,7 +44,7 @@ export default function ThreeCardGrid() {
         return (
           <div
             key={index}
-            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass}`}
+            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass} shadow-lg shrinkAnimation`}
           >
             <div className="w-[80px]">
               <div

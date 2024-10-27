@@ -30,13 +30,12 @@ body {
     --foreground: #ededed;
   }
 }
-.shrinkAnimation {
-  transition: transform 0.3s;
-}
+
 
 .shrinkAnimation:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
 }
+
 /*Desktop navBar*/
 .nav-linkD {
   position: relative;

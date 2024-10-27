@@ -3,7 +3,7 @@ import ThreeCardGrid from "../threeCardGrid";
 
 export default function Hero() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-white">
       <div className="relative isolate overflow-hidden pt-14">
         <img
           alt=""
@@ -30,7 +30,7 @@ export default function Hero() {
                 <Button
                   text="Our services"
                   link="/about"
-                  className="border mediumBold"
+                  className="border mediumBold hover:bg-indigo-500 hover:border-indigo-500"
                 />
               </div>
             </div>
