@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-x: hidden;
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-inter: "Inter", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,9 +24,59 @@
     --foreground: #ededed;
   }
 }
+.shrinkAnimation {
+  transition: transform 0.3s;
+}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.shrinkAnimation:hover {
+  transform: scale(0.95);
+}
+/*Desktop navBar*/
+.nav-linkD {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.nav-linkD::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: indigo; /* Color of the underline */
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-linkD:hover::after,
+.active-link::after {
+  transform: scaleX(1);
+  color: black;
+}
+
+.inactive-linkD {
+  color: black;
+}
+/*mobile navBar*/
+.nav-linkM {
+  display: block;
+  border-left-width: 4px;
+  border-left-color: #c8c8fd;
+  border-left-style: solid;
+  background-color: #ece8f1;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color:black;
+}
+.active-linkM{
+  border-left-color: #4f46e5;
+  background-color: #d9d2f5;
+  border-left-style: solid;
+  color: #3730a3;
 }
