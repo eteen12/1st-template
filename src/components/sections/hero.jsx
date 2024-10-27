@@ -1,8 +1,9 @@
 import Button from "../reusables/button";
+import ThreeCardGrid from "../threeCardGrid";
 
 export default function Hero() {
   return (
-    <div className="bg-gray-900 ">
+    <div className="bg-gray-900">
       <div className="relative isolate overflow-hidden pt-14">
         <img
           alt=""
@@ -13,14 +14,14 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="py-32 sm:py-48 lg:py-56">
             <div className="flex flex-col max-w-2xl">
-              <h1 className="text-balance text-5xl font-semibold tracking-tight text-white md:text-7xl">
+              <h1 className="text-balance text-5xl font-semibold tracking-tight text-white md:text-6xl">
                 Data to enrich your online business
               </h1>
               <p className="mt-8 text-pretty text-lg mediumBold md:text-xl">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
               </p>
-              <div className="mt-10 sm:flex sm:gap-x-6 grid gap-5">
+              <div className="mt-10 button-container flex gap-5">
                 <Button
                   text="About us"
                   link="/about"
@@ -35,6 +36,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="relative -mt-16 sm:-mt-28 z-10">
+        <ThreeCardGrid />
       </div>
     </div>
   );

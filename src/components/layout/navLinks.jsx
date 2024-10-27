@@ -21,8 +21,8 @@ export function DesktopNavLinks() {
           key={link.href}
           aria-label={`go to the ${link.text} page`}
           href={link.href}
-          className={`nav-linkD text-lg ${
-            pathname === link.href ? "active-linkD text-black" : "inactive-linkD"
+          className={`nav-linkD text-black ${
+            pathname === link.href ? "active-link" : "inactive-linkD"
           }`}
         >
           <p>{link.text}</p>
@@ -43,7 +43,9 @@ export function MobileNavLinks() {
           href={link.href}
           //   className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
           className={`nav-linkM text-lg ${
-            pathname === link.href ? "active-linkM text-black" : "inactive-linkM"
+            pathname === link.href
+              ? "active-linkM text-black"
+              : "inactive-linkM"
           }`}
         >
           {link.text}
