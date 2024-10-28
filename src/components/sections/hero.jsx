@@ -1,5 +1,5 @@
 import Button from "../reusables/button";
-import ThreeCardGrid from "../threeCardGrid";
+import ThreeCardGrid from "./threeCardGrid";
 
 export default function Hero() {
   return (
