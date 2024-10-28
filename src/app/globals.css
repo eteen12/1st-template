@@ -101,4 +101,7 @@ body {
     flex-direction: row;
     gap: 1.5rem;
   }
+  .btn {
+    width: 176px;
+  }
 }

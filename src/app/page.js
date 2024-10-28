@@ -2,7 +2,8 @@ import React from "react";
 
 import Hero from "@/components/sections/hero";
 import AboutUs from "@/components/sections/aboutUs";
-import Services from "@/components/sections/services";
+// import Services from "@/components/sections/services";
+import Cta1 from "@/components/sections/cta1";
 
 export default function Home() {
   return (
@@ -11,9 +12,7 @@ export default function Home() {
         <Hero />
       </div>
       <AboutUs />
-      <div className="h-screen">
-        <Services />
-      </div>
+      <Cta1 />
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import SwiperHi from "./swiper/swiperCarousel";
+
 
 export default function Services() {
-  return <SwiperHi />;
+  return <div></div>;
 }
