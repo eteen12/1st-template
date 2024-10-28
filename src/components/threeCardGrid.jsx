@@ -44,7 +44,7 @@ export default function ThreeCardGrid() {
         return (
           <div
             key={index}
-            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass} shadow-lg shrinkAnimation`}
+            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass} shadow-lg shrinkAnimation transition3`}
           >
             <div className="w-[80px]">
               <div
