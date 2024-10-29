@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 html {
+ 
+ 
 }
 body {
   color: var(--foreground);
@@ -12,7 +14,7 @@ body {
 }
 
 :root {
-  --background: #ffffff;
+  --background: #f9fafb;
   --foreground: #171717;
   --font-inter: "Inter", sans-serif;
 }

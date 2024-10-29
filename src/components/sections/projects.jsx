@@ -3,8 +3,8 @@ import { SlWrench, SlCalender } from "react-icons/sl";
 
 export default function Projects() {
   return (
-    <div className="h-full w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-36">
-      <div className="max-w-2xl lg:mx-0 mb-10 mt-10 lg:flex-row lg:flex lg:max-w-7xl lg:justify-between">
+    <div className="h-full w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-36 ">
+      <div className="max-w-2xl lg:mx-0 mb-10 mt-10 lg:flex-row lg:flex lg:max-w-7xl lg:justify-between ">
         <div className="lg:max-w-lg">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
             Projects
@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
-        <div className="bg-black h-[780px] sm:h-[600px] md:h-[700px] lg:h-[600px]  grid grid-cols-1  grid-rows-[55%_45%] phone-breakpoint sm:grid-rows-[53%_47%] shadow-xl shrinkAnimation transition3">
+        <div className="bg-black h-[780px] sm:h-[600px] md:h-[700px] lg:h-[600px]  grid grid-cols-1  grid-rows-[55%_45%] phone-breakpoint sm:grid-rows-[53%_47%] shadow-xl shrinkAnimation transition3 ring-1 ring-gray-200 ">
           {/*Image goes here*/}
           <div className="bg-black "></div>
           <div className="bg-white text-black ">
@@ -55,7 +55,7 @@ export default function Projects() {
           </div>
         </div>
         {/*SECOND CARD*/}
-        <div className="bg-black h-[780px] sm:h-[600px] md:h-[700px] lg:h-[600px]  grid grid-cols-1  grid-rows-[55%_45%] phone-breakpoint sm:grid-rows-[53%_47%] shadow-xl shrinkAnimation transition3">
+        <div className="bg-black h-[780px] sm:h-[600px] md:h-[700px] lg:h-[600px]  grid grid-cols-1  grid-rows-[55%_45%] phone-breakpoint sm:grid-rows-[53%_47%] shadow-xl shrinkAnimation transition3  ring-1 ring-gray-200">
           {/*Image goes here*/}
           <div className="bg-black "></div>
           <div className="bg-white text-black ">

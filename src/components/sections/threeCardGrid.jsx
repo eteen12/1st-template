@@ -44,11 +44,11 @@ export default function ThreeCardGrid() {
         return (
           <div
             key={index}
-            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass} shadow-lg shrinkAnimation transition3`}
+            className={`w-full h-full flex flex-row md:flex-col lg:flex-row justify-start   ${iconTextColorClass} p-10  ${cardBgClass} shadow-lg shrinkAnimation transition3 `}
           >
             <div className="w-[80px]">
               <div
-                className={`w-16 h-16 flex items-center justify-center md:mb-2 lg:mb-0 ${iconBgClass}`}
+                className={`w-16 h-16 flex items-center justify-center md:mb-2 lg:mb-0 ${iconBgClass} `}
               >
                 <IconComponent className={`w-10 h-10  ${iconColorClass}`} />
               </div>
