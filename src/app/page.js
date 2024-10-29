@@ -17,6 +17,7 @@ export default function Home() {
       <Cta1 />
       <Projects />
       <Testimonials />
+     
     </>
   );
 }
