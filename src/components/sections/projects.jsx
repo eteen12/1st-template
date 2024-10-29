@@ -3,7 +3,7 @@ import { SlWrench, SlCalender } from "react-icons/sl";
 
 export default function Projects() {
   return (
-    <div className="h-full w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-32">
+    <div className="h-full w-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-36">
       <div className="max-w-2xl lg:mx-0 mb-10 mt-10 lg:flex-row lg:flex lg:max-w-7xl lg:justify-between">
         <div className="lg:max-w-lg">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
