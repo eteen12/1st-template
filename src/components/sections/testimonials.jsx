@@ -3,43 +3,25 @@ import Author from "../reusables/author";
 export default function Testimonials() {
   return (
     <>
-      <div className="relative bg-gray-100 mt-36 h-screen hidden lg:block">
-        <div className="relative h-[50vh] w-[20vw] bg-blue-200 mx-auto">
-          {/*First layout*/}
-          <div className="absolute -left-10 bottom-0 max-w-7xl">
-            <div className="text-black">
-              <p>Testimonials</p>
-              <h2>What our people say</h2>
+      <div className="relative mt-56 py-24 h-screen px-8 sm:px-6  max-w-7xl hidden lg:block mx-auto  ">
+        <div className="absolute bg-indigo-500 w-[400px] h-[450px] left-1/2 transform -translate-x-1/2 z-0"></div>
+        <div className="grid grid-cols-2 mx-auto gap-16 -mt-32">
+          {/*1st grid*/}
+          <div className="relative grid grid-cols-1 grid-rows-[15%_90%] gap-8 justify-center mt-10">
+            <div className="-mt-10">
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+                About us
+              </h2>
+              <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                What our Customers are saying
+              </p>
             </div>
-            <div className="h-[300px] bg-red-500">
-              <p></p>
-              <Author />
-            </div>
+            <div className="bg-red-500 w-full h-[350px] z-20 "></div>
           </div>
-          {/*Second layout*/}
-          <div>
-            {/*first card*/}
-            <div className="absolute -right-10 bottom-0 max-w-7xl">
-              <div className="text-black">
-                <p>Testimonials</p>
-                <h2>What our people say</h2>
-              </div>
-              <div className="h-[300px] bg-red-500">
-                <p></p>
-                <Author />
-              </div>
-            </div>
-            {/*Second card*/}
-            <div className="absolute -right-5 top-0 max-w-7xl">
-              <div className="text-black">
-                <p>Testimonials</p>
-                <h2>What our people say</h2>
-              </div>
-              <div className="h-[300px] bg-red-500">
-                <p></p>
-                <Author />
-              </div>
-            </div>
+          {/*Second grid*/}
+          <div className="relative grid grid-cols-1 gap-16 -mt-5">
+            <div className="bg-red-500 w-full h-[350px] z-20"></div>
+            <div className="bg-red-500 w-full h-[350px] z-20"></div>
           </div>
         </div>
       </div>
