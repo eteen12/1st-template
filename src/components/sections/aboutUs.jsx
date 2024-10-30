@@ -60,26 +60,13 @@ export default function AboutUs() {
                 </div>
               </dl>
             </div>
+            
           </div>
-          <div className="px-6 lg:px-0 lg:mt-11">
-            <div className="relative isolate overflow-hidden bg-indigo-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl  sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
-              <div
-                aria-hidden="true"
-                className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-40deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white"
-              />
-              <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none ">
-                <img
-                  alt="Product screenshot"
-                  src="https://tailwindui.com/plus/img/component-images/project-app-screenshot.png"
-                  width={2432}
-                  height={1442}
-                  className="-mb-12 w-[57rem] max-w-none  bg-gray-800 ring-1 ring-white/10"
-                />
-              </div>
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-black/10 "
-              />
+
+          <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4 mx-auto -mt-3">
+            <div className="relative pb-24 pt-20 sm:pb-32 px-6 lg:px-8 max-w-2xl h-full w-full mx-auto">
+              <div className="absolute top-12 right-32 lg:right-36 inset-0 bg-indigo-500 z-0 mx-auto h-[600px] w-[90%] lg:w-[90%] "></div>
+              <div className=" bg-white p-8 ring-1 ring-gray-200 relative z-20  lg:ml-0 shadow-lg h-[600px] w-[500px]"></div>
             </div>
           </div>
         </div>
