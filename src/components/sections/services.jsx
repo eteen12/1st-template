@@ -6,6 +6,7 @@ import {
   ServerIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/outline";
+import Button from "../reusables/button";
 
 const features = [
   {
@@ -81,6 +82,22 @@ export default function Services() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-10 flex items-center gap-x-6">
+            <Button
+              text="Get a quote"
+              link="/about"
+              className="bg-indigo-500 text-white mediumBold"
+            />
+            <a
+              href="#"
+              className="font-semibold tracking-tight text-gray-900 transition-colors hover:text-indigo-500 ease-in-out duration-300 flex items-center justify-center gap-1 text-base lg:text-lg"
+            >
+              View all services{" "}
+              <span aria-hidden="true" className="text-4xl mb-3">
+                →
+              </span>
+            </a>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const features = [
 
 export default function AboutUs() {
   return (
-    <div className="overflow-hidden bg-white mt-36">
+    <div className="overflow-hidden bg-white  py-24 mb-20">
       <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
           <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
@@ -61,13 +61,13 @@ export default function AboutUs() {
               </dl>
             </div>
           </div>
-          <div className="sm:px-6 lg:px-0">
+          <div className="px-6 lg:px-0 lg:mt-11">
             <div className="relative isolate overflow-hidden bg-indigo-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl  sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
               <div
                 aria-hidden="true"
                 className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-40deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white"
               />
-              <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+              <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none ">
                 <img
                   alt="Product screenshot"
                   src="https://tailwindui.com/plus/img/component-images/project-app-screenshot.png"
