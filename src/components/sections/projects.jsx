@@ -27,7 +27,7 @@ export default function Projects() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-px ">
         <div className="relative max-w-2xl mx-auto text-black shrinkAnimation transition3">
           {/* THIS IS WHERE IMAGE GOES*/}
           <div className="bg-black h-[400px]"></div>
