@@ -24,26 +24,29 @@ const contactInfo = [
 
 export default function Page() {
   return (
-    <div className="overflow-hidden bg-white  py-24 mb-20">
+    <div className="overflow-hidden bg-white  py-24 mb-20 ">
       <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-8  sm:gap-y-20 lg:grid-cols-2 lg:items-start">
-          <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 -mt-20">
-            <div className="mx-auto text-center lg:text-left">
+          <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 -mt-20 md:grid md:grid-cols-2 lg:block">
+            <div className="mx-auto text-left">
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+               Contact
+              </h2>
               <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                Contact sales
+                Get in touch with our staff today
               </h2>
               <p className="mt-2 text-lg/8 text-gray-600">
                 Aute magna irure deserunt veniam aliqua magna enim voluptate.
               </p>
             </div>
-            <div className="mx-auto mt-20 space-y-16 ">
+            <div className="mx-auto mt-20 md:mt-0 lg:mt-10 space-y-8 ">
               {contactInfo.map((item) => (
                 <div key={item.id} className="flex gap-x-6">
                   <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-indigo-500">
                     {item.icon}
                   </div>
                   <div>
-                    <h3 className="text-base/7 font-semibold text-gray-900">
+                    <h3 className="text-base/7 font-semibold text-gray-900 bold">
                       {item.title}
                     </h3>
                     <p className="mt-2 text-base/7 text-gray-600">
@@ -55,7 +58,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4 mx-aut -mt-3 w-full">
+          <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4 mx-auto -mt-20 md:mt-3 w-full">
             <div className="relative pb-24 pt-20 sm:pb-32 px-6 lg:px-8 max-w-2xl h-full w-full mx-auto">
               <div className="absolute top-12 right-32 lg:right-36 inset-0 bg-indigo-500 z-0 mx-auto h-[600px] w-[90%] lg:w-[90%] "></div>
               <div className=" bg-white p-8 ring-1 ring-gray-200 relative z-20  lg:ml-0 shadow-lg h-[600px] w-full">
