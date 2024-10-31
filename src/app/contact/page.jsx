@@ -58,8 +58,8 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4 mx-auto -mt-20 md:mt-3 w-full">
-            <div className="relative pb-24 pt-20 sm:pb-32 px-6 lg:px-8 max-w-2xl h-full w-full mx-auto">
+          <div className="px-6 pr-0 lg:px-0 lg:pr-4 lg:pt-4 mx-auto -mt-20 md:mt-3 w-full">
+            <div className="relative pb-24 pt-20 sm:pb-32 px-6 pr-2 lg:px-8 max-w-2xl h-full w-full mx-auto">
               <div className="absolute top-12 right-32 lg:right-36 inset-0 bg-indigo-500 z-0 mx-auto h-[600px] w-[90%] lg:w-[90%] "></div>
               <div className=" bg-white p-8 ring-1 ring-gray-200 relative z-20  lg:ml-0 shadow-lg h-[600px] w-full">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 ">
