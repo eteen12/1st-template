@@ -1,0 +1,38 @@
+export const companyServices = [
+  {
+    id: 1,
+    title: "This one",
+    link: "/services/1",
+    linkText: "go to 1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
+    imageUrl: "path/to/image1.jpg",
+  },
+  {
+    id: 2,
+    title: "This one 2",
+    link: "/services/2",
+    linkText: "go to 2",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
+    imageUrl: "path/to/image2.jpg",
+  },
+  {
+    id: 3,
+    title: "This one 3",
+    link: "/services/3",
+    linkText: "go to 3",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
+    imageUrl: "path/to/image2.jpg",
+  },
+  {
+    id: 4,
+    title: "This one 4",
+    link: "/services/4",
+    linkText: "go to 4",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
+    imageUrl: "path/to/image2.jpg",
+  },
+];

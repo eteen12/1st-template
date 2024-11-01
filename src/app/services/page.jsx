@@ -1,5 +1,5 @@
 import ServiceCards from "@/components/pages/serviceCards";
-import projects from "@components/pages/serviceContent.json";
+import { companyServices } from "@/components/pages/serviceContent";
 
 export default function Page() {
   return (
@@ -10,15 +10,15 @@ export default function Page() {
             Projects
           </h2>
           <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-               Our Services
+            Our Services
           </h2>
           <p className="mt-2 text-lg/8 text-gray-600">
-                Aute magna irure deserunt veniam aliqua magna enim voluptate.
+            Aute magna irure deserunt veniam aliqua magna enim voluptate.
           </p>
         </div>
       </div>
 
-      <ServiceCards projects={projects}/>
+      <ServiceCards companyServices={companyServices} />
     </div>
   );
 }
