@@ -33,7 +33,7 @@ export default function Projects() {
           <div className="bg-black h-[350px]"></div>
 
           {/* White content area with padding and shadow */}
-          <div className="relative bg-white px-8 py-8 shadow-lg mx-auto mb-10 z-20 ring-1 ring-gray-200 ">
+          <div className="relative bg-white px-8 py-8 shadow-lg mx-auto mb-10 z-20 ring-1 ring-gray-200 border-b-8 border-indigo-500">
             <h3 className="text-2xl font-bold">
               This is something, Kelowna, BC
             </h3>
@@ -64,7 +64,7 @@ export default function Projects() {
           <div className="bg-black h-[350px]"></div>
 
           {/* White content area with padding and shadow */}
-          <div className="relative bg-white px-8 py-8 shadow-lg mx-auto mb-10 z-20 ring-1 ring-gray-200 ">
+          <div className="relative bg-white px-8 py-8 shadow-lg mx-auto mb-10 z-20 ring-1 ring-gray-200 border-b-8 border-indigo-500">
             <h3 className="text-2xl font-bold">
               This is something, Kelowna, BC
             </h3>
