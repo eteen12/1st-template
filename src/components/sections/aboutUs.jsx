@@ -60,7 +60,6 @@ export default function AboutUs() {
                 </div>
               </dl>
             </div>
-            
           </div>
 
           <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4 mx-auto -mt-3">

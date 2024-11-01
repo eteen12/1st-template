@@ -30,7 +30,7 @@ export default function Page() {
           <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8 -mt-20 md:grid md:grid-cols-2 lg:block">
             <div className="mx-auto text-left">
               <h2 className="text-base font-semibold leading-7 text-indigo-600">
-               Contact
+                Contact
               </h2>
               <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                 Get in touch with our staff today
