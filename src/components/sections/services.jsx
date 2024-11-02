@@ -1,51 +1,5 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  CogIcon,
-  LockClosedIcon,
-  ServerIcon,
-  ShieldCheckIcon,
-} from "@heroicons/react/24/outline";
 import Button from "../reusables/button";
-
-const features = [
-  {
-    name: "Push to Deploy",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "SSL Certificates",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Simple Queues",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Advanced Security",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: "Powerful API",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: CogIcon,
-  },
-  {
-    name: "Database Backups",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
-  },
-];
+import { companyServices } from "../pages/serviceContent";
 
 export default function Services() {
   return (
@@ -60,23 +14,23 @@ export default function Services() {
 
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature) => (
-              <div key={feature.name} className="pt-6 ">
+            {companyServices.map((companyService) => (
+              <div key={companyService.name} className="pt-6 ">
                 <div className="flow-root  bg-gray-50 px-6 pb-8 ring-1 ring-gray-200 shrinkAnimation transition3">
                   <div className="-mt-6">
                     <div>
                       <span className="inline-flex items-center justify-center bg-indigo-500 p-3 shadow-lg">
-                        <feature.icon
+                        <companyService.icon
                           aria-hidden="true"
                           className="h-8 w-8 text-white"
                         />
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg/8 font-semibold tracking-tight text-gray-900">
-                      {feature.name}
+                      {companyService.name}
                     </h3>
                     <p className="mt-5 text-base/7 text-gray-600">
-                      {feature.description}
+                      {companyService.description}
                     </p>
                   </div>
                 </div>

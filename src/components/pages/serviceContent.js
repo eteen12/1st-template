@@ -1,38 +1,71 @@
+import {
+  ArrowPathIcon,
+  CloudArrowUpIcon,
+  CogIcon,
+  LockClosedIcon,
+  ServerIcon,
+  ShieldCheckIcon,
+} from "@heroicons/react/24/outline";
+
 export const companyServices = [
   {
-    id: 1,
-    title: "This one",
-    link: "/services/1",
-    linkText: "go to 1",
+    id: "ssl-certificate",
+    name: "SSL Certificates",
+    title: "lorem of all lorems",
+    link: "/services/ssl-certificate",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: LockClosedIcon,
+    imageUrl: "path/to/image2.jpg",
+  },
+  {
+    id: "push-to-deploy",
+    name: "Push to Deploy",
+    title: "This one",
+    link: "/services/push-to-deploy",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: CloudArrowUpIcon,
     imageUrl: "path/to/image1.jpg",
   },
   {
-    id: 2,
-    title: "This one 2",
-    link: "/services/2",
-    linkText: "go to 2",
+    id: "simple-queues",
+    name: "Simple Queues",
+    title: "Simple Queues",
+    link: "/services/simple-queues",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
-    imageUrl: "path/to/image2.jpg",
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ArrowPathIcon,
+    imageUrl: "path/to/image3.jpg", // Add a path for the image
   },
   {
-    id: 3,
-    title: "This one 3",
-    link: "/services/3",
-    linkText: "go to 3",
+    id: "advanced-security",
+    name: "Advanced Security",
+    title: "Advanced Security",
+    link: "/services/advanced-security",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
-    imageUrl: "path/to/image2.jpg",
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ShieldCheckIcon,
+    imageUrl: "path/to/image4.jpg", // Add a path for the image
   },
   {
-    id: 4,
-    title: "This one 4",
-    link: "/services/4",
-    linkText: "go to 4",
+    id: "powerful-api",
+    name: "Powerful API",
+    title: "Powerful API",
+    link: "/services/powerful-api",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui magni dicta cupiditate velit quos, hic molestias eum repellat.",
-    imageUrl: "path/to/image2.jpg",
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: CogIcon,
+    imageUrl: "path/to/image5.jpg", // Add a path for the image
+  },
+  {
+    id: "database-backups",
+    name: "Database Backups",
+    title: "Database Backups",
+    link: "/services/database-backups",
+    description:
+      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    icon: ServerIcon,
+    imageUrl: "path/to/image6.jpg", // Add a path for the image
   },
 ];
